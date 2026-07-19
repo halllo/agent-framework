@@ -2,5 +2,10 @@
     "dotnet.defaultSolution": "agent-framework-dotnet.slnx",
     "git.openRepositoryInParentFolders": "always",
     "chat.agent.enabled": true,
-    "dotnet.automaticallySyncWithActiveItem": true
+    "dotnet.automaticallySyncWithActiveItem": true,
+    "chat.tools.terminal.autoApprove": {
+        "mktemp": true,
+        "dotnet build": true,
+        "exit": true
+    }
 }
